@@ -24,45 +24,39 @@ This repository contains the backend code for a healthcare management applicatio
    ```bash
    git clone https://github.com/your-username/healthcare-management-backend.git
    cd healthcare-management-backend
-Install Dependencies
 
-Run the following command to install the required dependencies:
+2. **Install Dependencies**
+```bash
+  npm run deploy
+```
+3. **Nodemailer**
+```bash
+  npm i nodemailer
+```
+4. **bcrypty.js**
+```bash
+  npm i bcrypt
+```
 
-bash
-Copy code
-npm install
-Environment Variables
+## API Endpoints
 
-Create a .env file in the root directory and add your database connection URL and email credentials:
+### User Authentication
 
-plaintext
-Copy code
-MYURL=mongodb://your_mongo_db_url
-EMAIL=your_email@gmail.com
-PASSWORD=your_email_password
-Run the Server
+- **POST /login**: Log in a user.
+- **POST /signup**: Register a new user.
+- **POST /makemail**: Send an OTP to the user's email for verification.
 
-Start the server using the following command:
+### Patient Management
 
-bash
-Copy code
-node index.js
-The server will run on http://localhost:9020.
+- **POST /addpatient**: Add a new patient.
+- **GET /getallpatients**: Retrieve a list of all patients.
+- **GET /patient/:id**: Get details of a specific patient by ID.
 
-API Endpoints
-User Authentication
-POST /login: Log in a user.
-POST /signup: Register a new user.
-POST /makemail: Send an OTP to the user's email for verification.
-Patient Management
-POST /addpatient: Add a new patient.
-GET /getallpatients: Retrieve a list of all patients.
-GET /patient/
-: Get details of a specific patient by ID.
-Authorization Requests
-POST /auth-requests: Submit a new prior authorization request for a patient.
-Dependencies
-The following dependencies are used in the project:
+### Authorization Requests
+
+- **POST /auth-requests**: Submit a new prior authorization request for a patient.
+
+### The following dependencies are used in the project:
 
 json
 Copy code
@@ -74,7 +68,8 @@ Copy code
     "mongoose": "^6.8.0",
     "nodemailer": "^6.9.2"
 }
-Conclusion
+
+**Conclusion**
 This backend application provides a comprehensive solution for managing patient data and handling authorization requests efficiently. It integrates seamlessly with the frontend application, allowing healthcare professionals to authenticate, manage patients, and submit requests easily.
 
 vbnet
