@@ -55,6 +55,10 @@ PASSWORD=your_email_password
    ```bash
    npm i mongoose
    ```
+7. **Install express**
+   ```bash
+   npm i express
+   ```
 
 ## API Endpoints
 
