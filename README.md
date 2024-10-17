@@ -1,6 +1,6 @@
-# Healthcare Management Backend
+# Patient Health Dashboard for Prior Authorization Backend
 
-This repository contains the backend code for a healthcare management application designed to manage patient data effectively and facilitate prior authorization requests. The application is built using **Node.js**, **Express**, and **MongoDB**. It provides RESTful APIs for user authentication, patient management, and authorization requests.
+This repository contains the backend code for a Patient Health Dashboard for Prior Authorization application designed to manage patient data effectively and facilitate prior authorization requests. The application is built using **Node.js**, **Express**, and **MongoDB**. It provides RESTful APIs for user authentication, patient management, and authorization requests.
 
 ## Deployed Application
 
