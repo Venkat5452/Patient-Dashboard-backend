@@ -71,7 +71,7 @@ PASSWORD=your_email_password
 - **POST /auth-requests**: Submit a new prior authorization request for a patient.
 
 ### The following dependencies are used in the project:
-
+```bash
 {
     "dependencies": {
         "bcryptjs": "^2.4.3",
@@ -82,7 +82,7 @@ PASSWORD=your_email_password
         "nodemailer": "^6.9.2"
     }
 }
-
+```
 **Conclusion**
 This backend application provides a comprehensive solution for managing patient data and handling authorization requests efficiently. It integrates seamlessly with the frontend application, allowing healthcare professionals to authenticate, manage patients, and submit requests easily.
 
