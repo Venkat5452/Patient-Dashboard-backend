@@ -2,6 +2,14 @@
 
 This repository contains the backend code for a healthcare management application designed to manage patient data effectively and facilitate prior authorization requests. The application is built using **Node.js**, **Express**, and **MongoDB**. It provides RESTful APIs for user authentication, patient management, and authorization requests.
 
+## Deployed Application
+
+You can access the live application using the following link: [Patients Dashboard](https://patientsdashboardsite.netlify.app/)
+
+## FrontEnd GitHub Link 
+
+[FrontEnd Github link](https://github.com/Venkat5452/Patient-Dashboard-FrontEnd)
+
 ## Features
 
 - **User Authentication**: Secure signup and login endpoints with email OTP verification.
