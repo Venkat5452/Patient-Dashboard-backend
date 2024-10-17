@@ -37,6 +37,12 @@ This repository contains the backend code for a healthcare management applicatio
 ```bash
   npm i bcrypt
 ```
+5. **.env File**
+```bash
+MYURL=mongodb://your_mongo_db_url
+EMAIL=your_email@gmail.com
+PASSWORD=your_email_password
+```
 
 ## API Endpoints
 
