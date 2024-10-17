@@ -33,17 +33,17 @@ You can access the live application using the following link: [Patients Dashboar
    git clone https://github.com/your-username/healthcare-management-backend.git
    cd healthcare-management-backend
 
-2. **To Start The Application**
+2. **To Create**
 ```bash
-  npm start
+  npm init
 ```
-3. **React**
+3. **Nodemailer**
 ```bash
-  npm i react
+  npm i nodemailer
 ```
-4. **React-bootstrap**
+4. **Install bcrypt.js**
 ```bash
-  npm i react-bootstrap
+  npm i bcrypt.js
 ```
 5. **.env File**
 ```bash
@@ -51,6 +51,10 @@ MYURL=mongodb://your_mongo_db_url
 EMAIL=your_email@gmail.com
 PASSWORD=your_email_password
 ```
+6. **Install mongoose**
+   ```bash
+   npm i mongoose
+   ```
 
 ## API Endpoints
 
