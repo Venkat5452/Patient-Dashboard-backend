@@ -33,17 +33,17 @@ You can access the live application using the following link: [Patients Dashboar
    git clone https://github.com/your-username/healthcare-management-backend.git
    cd healthcare-management-backend
 
-2. **Install Dependencies**
+2. **To Start The Application**
 ```bash
-  npm run deploy
+  npm start
 ```
-3. **Nodemailer**
+3. **React**
 ```bash
-  npm i nodemailer
+  npm i react
 ```
-4. **bcrypty.js**
+4. **React-bootstrap**
 ```bash
-  npm i bcrypt
+  npm i react-bootstrap
 ```
 5. **.env File**
 ```bash
