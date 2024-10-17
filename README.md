@@ -58,15 +58,15 @@ This repository contains the backend code for a healthcare management applicatio
 
 ### The following dependencies are used in the project:
 
-json
-Copy code
-"dependencies": {
-    "bcryptjs": "^2.4.3",
-    "cors": "^2.8.5",
-    "dotenv": "^16.0.0",
-    "express": "^4.18.2",
-    "mongoose": "^6.8.0",
-    "nodemailer": "^6.9.2"
+{
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.0",
+        "express": "^4.18.2",
+        "mongoose": "^6.8.0",
+        "nodemailer": "^6.9.2"
+    }
 }
 
 **Conclusion**
